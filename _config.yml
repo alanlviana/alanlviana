@@ -1,35 +1,24 @@
 # Site
-name: "Memoirs"
-title: "Memoirs"
-description: "I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!"
+name: "Alan Luiz Viana"
+title: "Alan Luiz Viana"
+description: "Vou tentar compartilhar um pouco de coisas interessantes que aprendi!"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /alanlviana
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
-email: wowthemesnet@gmail.com
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    avatar: 'assets/images/avatar-sal.png'
+  alan:
+    name: Alan
+    display_name: Alan
+    avatar: 'assets/images/alanlviana.jpg'
     email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/donate/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Memoirs, a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
+    web: https://www.alanlviana.com.br/
+    description: "Autor dos artigos desse blog! :D"
 
 # Plugins
 plugins:
@@ -53,12 +42,11 @@ paginate: 6
 paginate_path: /page:num/
     
 # Other
-highlighter: none
+highlighter: rouge
 markdown: kramdown
-kramdown:
-   syntax_highlighter_opts:
-      disable : true
 
+kramdown:
+  input: GFM
 
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
