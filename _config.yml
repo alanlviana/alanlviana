@@ -6,7 +6,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 
@@ -14,10 +14,9 @@ permalink: /:title/
 authors:
   alan:
     name: Alan
-    display_name: Alan
+    display_name: Alan Luiz Viana
     avatar: 'assets/images/alanlviana.jpg'
-    email: wowthemesnet@gmail.com
-    web: https://www.alanlviana.com.br/
+    web: https://alanlviana.com.br/
     description: "Autor dos artigos desse blog! :D"
 
 # Plugins
@@ -28,7 +27,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
-    
+  - jekyll-gist
+
 # Archives
 jekyll-archives:
   enabled:
