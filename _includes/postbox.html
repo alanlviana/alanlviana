@@ -40,7 +40,12 @@
                 <span class="author-meta">
                 <span class="post-name font-weight-bold">{{ author.display_name }}</span> 
                 {% endif %}
-                <span class="post-date">{{ post.date | date_to_string }}</span>
+                {% assign mes_index = post.date | date: "%-m" | minus: 1 %}
+                {% assign mes = site.data.portuguese.meses[mes_index] %}
+    
+                <span class="post-date">
+                    {{ post.date | date: "%-d" }} de {{ mes }} de {{ post.date | date: "%Y" }}
+                </span>
                 </span>
                 <div class="clearfix"></div>
             </div>

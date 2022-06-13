@@ -6,9 +6,6 @@ categories: [ Docker ]
 tags: [ Keycloak ]
 image: assets/images/crud-2.png
 ---
-
-## Introdução
-
 Esse artigo faz parte de uma série onde criamos uma solução completa de cadastro de produtos, com separação entre API e Frontend, autenticação e monitoramento. Caso não tenha visto a parte 1, ela pode ser encontrada aqui.
 Nesse artigo vamos configurar o Keycloak, criando um reaml e um client que serão usados pela nossa API para autenticar usuários.
 Será configurada a API para validar os tokens recebidos no servidor Keycloak.
