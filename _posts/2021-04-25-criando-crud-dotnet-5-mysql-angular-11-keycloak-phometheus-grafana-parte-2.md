@@ -2,8 +2,8 @@
 layout: post
 title:  "Criando um CRUD com .NET 5, MySQL, Angular 11, Keycloak, Phometheus e Grafana — Parte 2"
 author: alan
-categories: [ Docker ]
-tags: [ Keycloak ]
+categories: [ On-Premise ]
+tags: [ Keycloak, postman, .netcore, docker, entity-framework ]
 image: assets/images/crud-2.png
 ---
 Esse artigo faz parte de uma série onde criamos uma solução completa de cadastro de produtos, com separação entre API e Frontend, autenticação e monitoramento. Caso não tenha visto a parte 1, ela pode ser encontrada aqui.

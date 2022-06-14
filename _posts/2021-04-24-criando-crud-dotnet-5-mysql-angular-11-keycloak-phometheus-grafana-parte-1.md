@@ -2,8 +2,8 @@
 layout: post
 title:  "Criando um CRUD com .NET 5, MySQL, Angular 11, Keycloak, Phometheus e Grafana — Parte 1"
 author: alan
-categories: [ Docker ]
-tags: [ Keycloak ]
+categories: [ On-Premise ]
+tags: [ .netcore, docker, entity-framework, web-api, swagger ]
 image: assets/images/crud-1.png
 ---
 
