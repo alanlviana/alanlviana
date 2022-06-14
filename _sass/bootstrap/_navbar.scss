@@ -48,7 +48,13 @@
 // Navbar brand
 //
 // Used for brand, project, or site names.
-
+.site-navbar{
+  display: flex;
+  align-items: center;
+}
+.site-navbar h1{
+  color: #FF8833;
+}
 .navbar-brand {
   display: inline-block;
   padding-top: $navbar-brand-padding-y;
