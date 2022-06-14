@@ -5,6 +5,7 @@ description: "Programação e Tecnologia!"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 google_analytics: 'UA-75483354-1'
+disqus: 'blogalan-3'
 include: ["_pages"]
 permalink: /:title/
 
