@@ -64,26 +64,27 @@
 
     <!-- Site Logo/Name
     ================================================== -->
-    <div class="site-navbar">
-        <div class="site-navbar-background">
-            <div class="navbar-duck">
-                <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    <a href="{{ site.baseurl }}/">
+        <div class="site-navbar">
+            <div class="site-navbar-background">
+                <div class="navbar-duck">
+                    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+                </div>
+                
+                <div class="navbar-background-color"></div>
+                <div class="navbar-water"></div>
             </div>
-            
-            <div class="navbar-background-color"></div>
-            <div class="navbar-water"></div>
-        </div>
 
-        <div class="navbar-content">
-            <div class="site-name-description">
-                <h1>{{ site.name }}</h1>
-                <h2>{{site.description}}</h2>
+            <div class="navbar-content">
+                <div class="site-name-description">
+                    <h1>{{ site.name }}</h1>
+                    <h2>{{site.description}}</h2>
+                </div>
             </div>
         </div>
+    </a>
 
 
-        
-    </div>
 
    
     <!-- Content
