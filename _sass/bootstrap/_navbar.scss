@@ -48,6 +48,18 @@
 // Navbar brand
 //
 // Used for brand, project, or site names.
+.navbar-content{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .site-navbar{
   position: relative;
   display: block;
@@ -64,25 +76,15 @@
   left:0;
 }
 
-.navbar-content{
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
+
 
 .navbar-content h1{
   color: black;
-  font-size:4vw;
+  font-size: clamp(12px,4.5vw, 34px);
 }
 .navbar-content h2{
   color: white;
-  font-size:3vw;
+  font-size:clamp(10px,3.5vw, 30px);
 }
 
 @media screen and (max-width: 601px) {
@@ -101,7 +103,23 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: duck-animation 2s infinite linear;
 }
+
+
+
+@keyframes duck-animation {
+  0%{
+    transform: translate(0, 0);
+  }
+  50%{
+    transform:  translate(0, 5px);
+  }
+  100%{
+    transform:  translate(0, 0);
+  }
+}
+
 .navbar-duck img{
   width: 80px;
   height: 80px;
