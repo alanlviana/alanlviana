@@ -98,11 +98,12 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 100%;
+  width: 100px;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  transform-origin: center;
   animation: duck-animation 2s infinite linear;
 }
 
@@ -110,13 +111,13 @@
 
 @keyframes duck-animation {
   0%{
-    transform: translate(0, 0);
+    transform: translate(0, 0) rotateZ(2deg);
   }
   50%{
-    transform:  translate(0, 5px);
+    transform:  translate(0, 5px) rotateZ(-2deg);
   }
   100%{
-    transform:  translate(0, 0);
+    transform:  translate(0, 0) rotateZ(2deg);
   }
 }
 
@@ -130,11 +131,39 @@
   height: 50%;
   width: 100%;
   background-color: #cbefe9;
+  z-index: -1;
 }
 .navbar-water{
-  height: 40%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30%;
   width: 100%;
   background-color: #0288d1;
+  transition: 1s;
+  z-index: -1;
+}
+
+.navbar-water:before{
+  content: '';
+  position: absolute;
+  top: -75%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  animation: wave-animate 10s linear infinite;
+  background: url(/assets/images/wave.svg);
+  background-size: 600px;
+  background-repeat: repeat-x;
+}
+
+@keyframes wave-animate {
+  0%{
+    background-position-x: 0;
+  }
+  100%{
+    background-position-x: 600px;
+  }
 }
 
 .navbar-brand {
