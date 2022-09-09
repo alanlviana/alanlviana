@@ -18,11 +18,11 @@ Entendo que é comum trabalharmos com pipelines automatizados, mas e quando prec
 Esse artigo tem como propósito possibilitar que apartir de uma linha de comando seja possível criar os seguintes recursos:
 - Repositório de Código no AWS Code Commit
 - Pipeline com Code Pipeline, Code Source, Code Build e Code Deploy
-- Web API .NET Core 5 rodando em ambiente serverless com AWS Lambda
+- Web API .NET Core 6 rodando em ambiente serverless com AWS Lambda
 - Bucket S3 para armazenar versões de uma especificação Swagger
 - AWS API Gateway com especificação e integração com Web API
 
-Esse artigo envolve um ambiente de complexidade intermediária e o uso de diversas ferramentas que necessitam de configuração especificas. Tentei organizar da forma mais simples que consegui, mas ainda considero que ele é indicado para quem possui um conhecimento intermediário de desenvolvimento na AWS.
+Esse artigo envolve um ambiente de complexidade intermediária e o uso de diversas ferramentas que necessitam de configuração específicas. Tentei organizar da forma mais simples que consegui, mas ainda considero que ele é indicado para quem possui um conhecimento intermediário de desenvolvimento na AWS.
 
 ## Requisitos
 Para que possamos começar com essa automação, é necessário:
