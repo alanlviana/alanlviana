@@ -7,7 +7,7 @@ tags: [ .netcore, api gateway, aws code commit, aws code build, aws code deploy,
 image: assets/images/pipeline-cdk-webapi-dotnet-core.png
 ---
 
-Nesse artigo será apresentado uma solução para criação de um pipeline para uma Web API na AWS.
+Nesse artigo será apresentada uma solução para criação de um pipeline para uma Web API na AWS.
 
 ## Introdução
 
@@ -22,7 +22,7 @@ Esse artigo tem como propósito possibilitar que apartir de uma linha de comando
 - Bucket S3 para armazenar versões de uma especificação Swagger
 - AWS API Gateway com especificação e integração com Web API
 
-Esse artigo envolve um ambiente de complexidade intermediária e o uso de diversas ferramentas que necessitam de configuração específicas. Tentei organizar da forma mais simples que consegui, mas ainda considero que ele é indicado para quem possui um conhecimento intermediário de desenvolvimento na AWS.
+Esse artigo envolve um ambiente de complexidade intermediária e o uso de diversas ferramentas que necessitam de configurações específicas. Tentei organizar da forma mais simples que consegui, mas ainda considero que ele é indicado para quem possui um conhecimento intermediário de desenvolvimento na AWS.
 
 ## Requisitos
 Para que possamos começar com essa automação, é necessário:
@@ -33,7 +33,7 @@ Para que possamos começar com essa automação, é necessário:
 
 ## Criando projeto com o AWS Cloud Development Kit (CDK)
 
-Para esse projeto vamos utilizar typescript para interagir com definir nossa infraestrutura. Recomendo dentro do seu workspace seja executado o seguinte comando:
+Para esse projeto vamos utilizar typescript para definir nossa infraestrutura. Recomendo dentro do seu workspace seja executado o seguinte comando:
 
 ```bash
 mkdir cdk-dotnet-api
