@@ -29,7 +29,3 @@ Olá! Sou Alan! Sou profissional com proficiência em AWS, apaixonado por DevOps
 <a href="https://www.credly.com/earner/earned/badge/5e148936-1b49-4f1c-be09-eb61e791375e">
     <img src="https://github.com/alanlviana/alanlviana/blob/main/home/developer.png?raw=true" alt="AWS Certified Developer – Associate" style="height: 100px; width:100px;"/>
 </a>
-
-
-
-[ Meu rating atualizado será adicionado aqui - Em construção]
