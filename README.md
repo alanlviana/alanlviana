@@ -1,26 +1,9 @@
 ![Github Alanlviana Header](https://github.com/alanlviana/alanlviana/blob/main/home/header.png?raw=true)
 # Quem eu sou
 Olá! Sou Alan! Sou profissional com proficiência em AWS, apaixonado por DevOps e Developer Experience. Com experiência em nuvem e automação, estou comprometido em otimizar processos e criar ambientes eficientes para o desenvolvimento de software. Além disso, sou um entusiasta de xadrez! ♟️
-
 # Ultimos posts no meu blog
+<!--BEGIN_POSTS-->
 
-[Lista de Posts do meu blog será adicionada aqui - Em Construção]
-
-# Meu rating online
+<!--END_POSTS-->
 
 [ Meu rating atualizado será adicionado aqui - Em construção]
-
-<!--
-**alanlviana/alanlviana** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->

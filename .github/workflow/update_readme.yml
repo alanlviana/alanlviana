@@ -1,0 +1,29 @@
+name: Update_posts
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0/5 * * * *'
+
+jobs:
+  update_posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+    
+      - name: Configure python environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Executar arquivo Python
+        run: python home/retrieve-post-list.py
+    - name: Commit and push if changed
+      run: |-
+        git add .
+        git diff
+        git config --global user.email "github-action-bot@example.com"
+        git config --global user.name "GitHub Action Bot"
+        git commit -m "Updated README" -a || echo "No changes to commit"
+        git push
