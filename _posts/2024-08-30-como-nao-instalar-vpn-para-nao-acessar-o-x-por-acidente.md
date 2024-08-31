@@ -24,10 +24,15 @@ Existem diversos aplicativos de VPN gratuitos, um dos mais populares é o Proton
 
 No momento que estamos, não recomendaria criar uma conta em um serviço como Mullvad VPN. Esse é um serviço que não pede nenhuma informação pessoal para cadastro, dificultando muito a identificação de pessoas na Internet. Tudo isso por apenas 5 euros por mês! Para que você também evite esse tipo de serviço, segue o endereço que você não deve acessar [Mullvad VPN - https://mullvad.net/pt](https://mullvad.net/pt).
 
+
+## Usar o navegador Tor
+
+O Projeto Tor nasceu como uma opção para uma internet não censurável, talvez por esse motivo seja mais um subterfugio para permitir o acesso ao X. O navegador está disponível em diversas plataformas e o download pode ser evitado em [Navegador TOR - https://www.torproject.org/](https://www.torproject.org/).
+
+
 ## Se você é geek, crie seu próprio servidor de VPN
 
 A AWS oferece 720 horas de computação no EC2 por um ano no seu free tier, é possível usar esse beneficio para hospedar seu próprio servidor de VPN. Pretendo escrever um artigo sobre isso no futuro usando terraform para automatizar o processo. Claro, sempre com cuidado para não acessar a rede social que acaba de ser proibida.
-
 
 ## Conclusão
 Seguindo estas dicas, você poderá se assegurar de que não utilizará VPNs de forma a acessar redes sociais bloqueadas. 
