@@ -5,6 +5,8 @@ Olá! Sou Alan! Sou profissional com proficiência em AWS, apaixonado por DevOps
 <!--BEGIN_POSTS-->
 
 
+📰 [Como não instalar um serviço de VPN para não acessar o X por acidente](https://alanlviana.com.br/como-nao-instalar-vpn-para-nao-acessar-o-x-por-acidente/)
+
 📰 [Implementando TLS mútuo no Amazon API Gateway](https://alanlviana.com.br/implementando-tls-mutuo-mtls-no-amazon-api-gateway/)
 
 📰 [Automatizando a criação de pipeline com .NET Core 6, AWS API Gateway e CDK](https://alanlviana.com.br/automatizando-criacao-pipeline-api-gateway-dotnet-core-cdk/)
